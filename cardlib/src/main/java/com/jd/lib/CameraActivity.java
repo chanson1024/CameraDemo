@@ -65,12 +65,7 @@ public class CameraActivity extends Activity implements SurfaceHolder.Callback, 
             if(ps.getPictureFormat() == PixelFormat.JPEG){
                 //存储拍照获得的图片
                 String path = savePicture(data);
-                //将图片交给Image程序处理
-//                Uri uri = Uri.fromFile(new File(path));
-//                Intent intent = new Intent();
-//                intent.setAction("android.intent.action.VIEW");
-//                intent.setDataAndType(uri, "image/jpeg");
-//                startActivity(intent);
+
             }
         }
     };
